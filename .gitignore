@@ -26,7 +26,6 @@
 
 # local editor directories
 .idea/
-.vscode/
 .cursor/
 *.iml
 
@@ -37,7 +36,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 !.env.example
 
 # local dev server log
@@ -62,3 +60,4 @@ bundle-composition-baseline.json
 # playwright visual regression (baselines live in test/visual/__screenshots__)
 /test-results/
 /playwright-report/
+config.bat
