@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/remove-unused-lint-warnings",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/remove-unused-lint-warnings": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/remove-unused-lint-warnings",
+    "origin"
+  ]
+}
